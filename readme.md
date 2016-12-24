@@ -73,14 +73,10 @@ git branch -r       // Show remote branches
 
 // Adding remote repository and getting the files
 
-git remote add origin `url`
-
-git fetch
-
-git log origin/master       // View changes from remote branch
-
-git merge origin/master     // Add changes from remote to local
-
+1. git remote add origin `url`
+2. git fetch
+3. git log origin/master       // View changes from remote branch
+4. git merge origin/master     // Add changes from remote to local
 
 // git fetch and git merge in single command
 
@@ -121,7 +117,13 @@ git branch `branchName` `refLogHash`    // Create new branch at refLogHash
 
 git merge `branchName`              // Merge branch to master
 
-git mergetool
+git mergetool       // Merge conflict
+
+Make changes of branch as a part of master 
+
+1. git checkout `branchName`
+2. git rebase master       
+3. git merge `branchName`   
 
 #Version control using Tag
 After commit
@@ -134,7 +136,7 @@ git tag -am `details` "messageText"    // To specifiy message within the command
 
 git tag -s `details`
 
-`details` can be version number or some information
+The `details` can be version number or some information about the commits other than message
 
 
 git tag -l              // Lists all tags
@@ -146,4 +148,6 @@ Pushing tags to remote repository
 git push --tags
 
 
-#Ca
+#Cherry-picking
+
+git cherry-pick `gitHash`       // To apply perticular branch fix to master
