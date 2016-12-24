@@ -56,4 +56,22 @@ git pull
 // For this we need to first setup the configuration
 git branch --setupstream master origin/master 
     // master is my branch
-    // origin/master remote branch                            
+    // origin/master remote branch
+
+// Local to remote
+git push
+
+
+#Version control using Tag
+After commit
+git tag `details`
+git tag -a `details`    // To specifiy message open external editor
+git tag -am `details` "messageText"    // To specifiy message within the command
+git tag -s `details`
+
+`details` can be version number or some information
+
+git tag -v `tagName`    // To verify the tag 
+
+Pushing tags to remote repository
+git push --tags
