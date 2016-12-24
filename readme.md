@@ -129,4 +129,12 @@ Pushing tags to remote repository
 git push --tags
 
 
-#Ca
+#Branching and merging
+git log --graph --oneline --all --decorate // Shows everything in nicer way
+
+git config alias.`aliasName` "log --graph --oneline --all --decorate"           // Creating alias for above command 
+
+
+git b
+
+#Stash
