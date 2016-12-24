@@ -121,6 +121,7 @@ git branch `branchName` `refLogHash`    // Create new branch at refLogHash
 
 git merge `branchName`              // Merge branch to master
 
+git mergetool
 
 #Version control using Tag
 After commit
