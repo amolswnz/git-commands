@@ -112,6 +112,8 @@ git branch `branchName`             // Create branch
 
 git checkout `branchName`           // Switch to the branchName
 
+git checkout -b `branchName`        // Create and switch to the branch
+
 git branch -m `oldName` `newName`   // Rename branch
 
 git branch -d `branchName`          // Delete branch
