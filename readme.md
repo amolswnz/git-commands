@@ -22,4 +22,5 @@ git diff HEAD~1..
 // To restore the filename as per the last commit
 git checkout `fileName`
 
+// Resets all files and changes to last commit
 git reset --hard
