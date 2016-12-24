@@ -10,6 +10,11 @@ git config --unset `configName`                 // Removes the confirguation
 
 git config --global core.editor "Notepad"
 
+git config --global user.name "username"        // Sets global username
+
+git config --global credential.helper wincred   // Cache password
+
+
 #Basics
 
 git init
@@ -89,7 +94,7 @@ git remote rm origin
 
 // For this we need to first setup the configuration
 
-git branch --setupstream master origin/master 
+git branch --set-upstream master origin/master 
 
     // master is my branch
 
