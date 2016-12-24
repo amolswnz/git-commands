@@ -105,6 +105,19 @@ git branch --set-upstream master origin/master
 git push
 
 
+#Branching
+git branch                          // List all branches
+
+git branch `branchName`             // Create branch
+
+git checkout `branchName`           // Switch to the branchName
+
+git branch -m `oldName` `newName`   // Rename branch
+
+git branch -d `branchName`          // Delete branch
+
+git branch -D `branchName`          // Delete branch force
+
 
 #Version control using Tag
 After commit
@@ -129,12 +142,4 @@ Pushing tags to remote repository
 git push --tags
 
 
-#Branching and merging
-git log --graph --oneline --all --decorate // Shows everything in nicer way
-
-git config alias.`aliasName` "log --graph --oneline --all --decorate"           // Creating alias for above command 
-
-
-git b
-
-#Stash
+#Ca
