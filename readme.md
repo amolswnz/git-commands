@@ -26,3 +26,6 @@ git checkout `fileName`
 git reset --hard
 
 git reset --soft
+
+// To remove any new files added (temperary or log files) since last commit
+git clean -f 
