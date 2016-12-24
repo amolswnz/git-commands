@@ -65,6 +65,7 @@ git branch          // Show local branches
 
 git branch -r       // Show remote branches
 
+
 // Adding remote repository and getting the files
 
 git remote add origin `url`
@@ -81,6 +82,11 @@ git merge origin/master     // Add changes from remote to local
 git pull
 
 
+// To remove remote 
+
+git remote rm origin
+
+
 // For this we need to first setup the configuration
 
 git branch --setupstream master origin/master 
@@ -91,6 +97,7 @@ git branch --setupstream master origin/master
 
 // Local to remote
 git push
+
 
 
 #Version control using Tag
@@ -112,3 +119,6 @@ git tag -v `tagName`    // To verify the tag
 Pushing tags to remote repository
 
 git push --tags
+
+
+#
