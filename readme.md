@@ -119,6 +119,8 @@ git reflog  // Log of all references
 
 git branch `branchName` `refLogHash`    // Create new branch at refLogHash
 
+git merge `branchName`              // Merge branch to master
+
 
 #Version control using Tag
 After commit
