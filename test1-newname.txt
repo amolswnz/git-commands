@@ -1,2 +1,2 @@
 This is commited
-soft reset commit
+soft reset commitg
