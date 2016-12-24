@@ -18,3 +18,6 @@ git add -u  // Only updated files
 #History and diffs
 git diff `firstHarsh`..`secondHash`
 git diff HEAD~1..
+
+// To rollback the filename as per the last commit
+git checkout `fileName`
