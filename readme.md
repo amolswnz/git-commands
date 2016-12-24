@@ -121,6 +121,11 @@ git branch -d `branchName`          // Delete branch
 git branch -D `branchName`          // Delete branch force
 
 
+git reflog  // Log of all references 
+
+git branch `branchName` `refLogHash`    // Create new branch at refLogHash
+
+
 #Version control using Tag
 After commit
 
