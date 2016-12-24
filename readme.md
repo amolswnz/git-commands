@@ -147,6 +147,12 @@ Pushing tags to remote repository
 
 git push --tags
 
+Delete tag
+
+git tag -d `tagName`
+
+git push --delete origin `tagName`  // Delete remote tag
+
 
 #Cherry-picking
 
