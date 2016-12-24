@@ -120,6 +120,8 @@ git tag -s `details`
 `details` can be version number or some information
 
 
+git tag -l              // Lists all tags
+
 git tag -v `tagName`    // To verify the tag 
 
 Pushing tags to remote repository
