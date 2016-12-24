@@ -19,6 +19,7 @@ git add -u  // Only updated files
 git diff `firstHarsh`..`secondHash`
 git diff HEAD~1..
 
+#Resetting
 // To restore the filename as per the last commit
 git checkout `fileName`
 
@@ -29,3 +30,6 @@ git reset --soft
 
 // To remove any new files added (temperary or log files) since last commit
 git clean -f 
+
+#Ignoring files
+
