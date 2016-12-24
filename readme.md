@@ -6,8 +6,15 @@ git config --global core.autocrlf true          // Auto control line feed
 git config --unset `configName`                 // Removes the confirguation 
 git config --global core.editor "Notepad"
 
+#Basics
 git init
 git add . 
 git status
 git commit -m "Message"
 git log
+
+git add -u  // Only updated files
+
+#History and diffs
+git diff `firstHarsh`..`secondHash`
+git diff HEAD~1..
