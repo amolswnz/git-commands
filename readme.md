@@ -94,15 +94,9 @@ git remote rm origin
 
 // For this we need to first setup the configuration
 
-git branch --set-upstream master origin/master 
+git branch --set-upstream master origin/master // master is my branch and origin/master remote branch
 
-    // master is my branch
-
-    // origin/master remote branch
-
-// Local to remote
-
-git push
+git push        // Local to remote
 
 
 #Branching
