@@ -44,3 +44,16 @@ git remote -v       // Show push and fetch url
 
 git branch          // Show local branches
 git branch -r       // Show remote branches
+
+// Adding remote repository and getting the files
+git remote add origin `url`
+git fetch
+git log origin/master       // View changes from remote branch
+git merge origin/master     // Add changes from remote to local
+
+// git fetch and git merge in single command
+git pull
+// For this we need to first setup the configuration
+git branch --setupstream master origin/master 
+    // master is my branch
+    // origin/master remote branch                            
