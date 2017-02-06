@@ -1,0 +1,4 @@
+<div ng-repeat-start="activity in activityCtrl.activities" class="clearfix" ng-if="$index % 3 == 0"></div>
+<div ng-repeat-end class="col-sm-4" style="z-index: 1">
+  ...
+</div>
