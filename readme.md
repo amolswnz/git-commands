@@ -1,4 +1,4 @@
-#GitHub
+### GitHub configuration
 
 git config --global --list                      // List all global git config
 
@@ -15,7 +15,7 @@ git config --global user.name "username"        // Sets global username
 git config --global credential.helper wincred   // Cache password
 
 
-#Basics
+### Basics
 
 git init
 
@@ -36,13 +36,13 @@ git shortlog    // User commit message grouped together
 
 git add -u  // Only updated files
 
-#History and diffs
+### History and diffs
 
 git diff `firstHarsh`..`secondHash`
 
 git diff HEAD~1..
 
-#Resetting
+### Resetting
 // To restore the filename as per the last commit
 git checkout `fileName`
 
@@ -54,10 +54,10 @@ git reset --soft
 // To remove any new files added (temperary or log files) since last commit
 git clean -f 
 
-#Ignoring files -- NOT WORKING
+### Ignoring files -- NOT WORKING
 add .gitignore file and specify files and folder using / strucutre
 
-#Working with Remote Repository
+### Working with Remote Repository
 
 git clone `url`
 
@@ -95,7 +95,7 @@ git branch --set-upstream master origin/master // master is my branch and origin
 git push        // Local to remote
 
 
-#Branching
+### Branching
 git branch                          // List all branches
 
 git branch `branchName`             // Create branch
@@ -125,7 +125,7 @@ Make changes of branch as a part of master
 2. git rebase master       
 3. git merge `branchName`   
 
-#Version control using Tag
+### Version control using Tag
 After commit
 
 git tag `details`
@@ -154,6 +154,6 @@ git tag -d `tagName`
 git push --delete origin `tagName`  // Delete remote tag
 
 
-#Cherry-picking
+### Cherry-picking
 
 git cherry-pick `gitHash`       // To apply perticular branch fix to master
