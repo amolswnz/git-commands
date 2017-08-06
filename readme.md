@@ -54,8 +54,13 @@ git reset --soft
 // To remove any new files added (temperary or log files) since last commit
 git clean -f 
 
-### Ignoring files -- NOT WORKING
-add .gitignore file and specify files and folder using / strucutre
+### Ignoring files 
+add .gitignore file and specify files and folder per line
+eg.
+```
+ node_modules
+ public/vendor
+```
 
 ### Working with Remote Repository
 
