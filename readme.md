@@ -94,3 +94,10 @@ eg.
 
 ### Cherry-picking
   * git cherry-pick `gitHash`       // To apply perticular branch fix to master
+  
+### Change default language cached by git
+touch .gitattributes
+```
+* linguist-vendored
+*.js linguist-vendored=false
+```
